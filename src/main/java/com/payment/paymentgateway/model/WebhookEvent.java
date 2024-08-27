@@ -26,6 +26,5 @@ public class WebhookEvent {
     @Column(name = "received_at", nullable = false)
     private LocalDateTime receivedAt = LocalDateTime.now();
 
-    // Getters and Setters
 }
 
